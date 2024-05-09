@@ -59,7 +59,7 @@
         "target": "finger_firelighter"
       } 
   ],
-    "flags": [ "TRADER_AVOID", "FIRESTARTER", "LIGHT_8", "FLAMING", "WATER_EXTINGUISH" ]
+    "flags": [ "TRADER_AVOID", "FIRESTARTER", "FLAMING", "WATER_EXTINGUISH" ]
   },
   {
     "id": "magic_lamp",
