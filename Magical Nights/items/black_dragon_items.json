@@ -377,5 +377,61 @@
     "volume": "18 L",
     "encumbrance": 28,
     "flags": [ "OVERSIZE", "VARSIZE", "WATERPROOF", "RAINPROOF", "STURDY" ]
+  },
+  {
+    "id": "backpack_black_dragon_hide",
+    "//": "After adding more dragons, maybe make it more generic",
+    "type": "ARMOR",
+    "name": { "str": "dragonhide backpack" },
+    "description": "A custom-built backpack.  Made of very durable dragon leather and carefully crafted to hold as much stuff as possible.",
+    "weight": "900 g",
+    "volume": "5250 ml",
+    "price": "2 kUSD 400 USD",
+    "price_postapoc": "32 USD 50 cent",
+    "material": [ "black_dragon_hide" ],
+    "symbol": "[",
+    "looks_like": "backpack",
+    "color": "black",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "29 L",
+        "max_contains_weight": "45 kg",
+        "max_item_length": "48 cm",
+        "magazine_well": "5 L",
+        "moves": 300
+      }
+    ],
+    "warmth": 8,
+    "material_thickness": 3,
+    "environmental_protection": 3,
+    "flags": [ "WATER_FRIENDLY", "STURDY", "BELTED", "WATERPROOF" ],
+    "armor": [ { "encumbrance": [ 5, 30 ], "coverage": 40, "covers": [ "torso" ] } ]
+  },
+  {
+    "id": "backpack_xl_black_dragon_hide",
+    "copy-from": "backpack_black_dragon_hide",
+    "type": "ARMOR",
+    "name": { "str": "XL dragonhide backpack" },
+    "weight": "1200 g",
+    "volume": "6250 ml",
+    "price": "2 kUSD 800 USD",
+    "price_postapoc": "34 USD 50 cent",
+    "symbol": "[",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "38 L",
+        "max_contains_weight": "52 kg",
+        "max_item_length": "58 cm",
+        "magazine_well": "5 L",
+        "moves": 330
+      }
+    ],
+    "warmth": 9,
+    "material_thickness": 4,
+    "environmental_protection": 3,
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "armor": [ { "encumbrance": [ 8, 40 ], "coverage": 40, "covers": [ "torso" ] } ]
   }
 ]

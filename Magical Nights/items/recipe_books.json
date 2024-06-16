@@ -172,5 +172,24 @@
     "intelligence": 10,
     "time": "60 m",
     "fun": -1
+  },
+  {
+    "id": "book_spellsword",
+    "type": "BOOK",
+    "name": { "str": "Memoir of a spellsword", "str_pl": "copies of Memoir of a spellsword" },
+    "description": "A tome detailing the life of the only spellsword. In it is an advanced method of forging a sword one can cast spells with.",
+    "weight": "1 kg",
+    "volume": "750 ml",
+    "price": "79 USD",
+    "bashing": 5,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "white",
+    "skill": "fabrication",
+    "required_level": 10,
+    "max_level": 10,
+    "intelligence": 9,
+    "time": "60 m",
+    "fun": -1
   }
 ]

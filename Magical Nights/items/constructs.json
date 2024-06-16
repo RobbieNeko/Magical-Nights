@@ -116,5 +116,40 @@
     "cutting": 4,
     "to_hit": -3,
     "flags": [ "TRADER_AVOID", "NO_REPAIR" ]
+  },
+    {
+    "type": "GENERIC",
+    "id": "broken_orichgolem",
+    "symbol": "x",
+    "color": "light_green",
+    "name": "broken orichalcum golem",
+    "category": "other",
+    "description": "A broken orichalcum golem, full of the precious metal orichalcum. Could be smashed for orichalcum.",
+    "price": "20 kUSD",
+    "material": [ "orichalcum_metal" ],
+    "weight": "70 kg",
+    "volume": "150 L",
+    "bashing": 4,
+    "cutting": 4,
+    "to_hit": -3,
+    "flags": [ "TRADER_AVOID", "NO_REPAIR" ]
+  },
+    {
+    "type": "GENERIC",
+    "id": "broken_mithrgolem",
+    "symbol": "x",
+    "color": "red",
+    "name": "broken mithril golem",
+    "category": "other",
+    "description": "A broken mithril golem, full of the precious metal mithril. Could be smashed for mithril.",
+    "price": "10 kUSD",
+    "material": [ "mithril_metal" ],
+    "weight": "70 kg",
+    "volume": "150 L",
+    "bashing": 4,
+    "cutting": 4,
+    "to_hit": -3,
+    "flags": [ "TRADER_AVOID", "NO_REPAIR" ]
+	"//": "I have not fine tuned the specs for the last two golem carcasses I added"
   }
 ]

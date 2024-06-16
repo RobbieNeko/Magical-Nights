@@ -83,5 +83,13 @@
     "name": "impure meat",
     "description": "Not as tainted as previously and tastes like the real thing.  You do not want to cook this for your friends, though if you do they won't know the difference for a while.",
     "price": "1 USD"
+  },
+  {
+    "id": "tea_green",
+    "type": "COMESTIBLE",
+    "copy-from": "tea_green",
+    "name": { "str_sp": "green tea" },
+    "//": "Same reason as whiskey",
+    "price_postapoc": "1 cent"
   }
 ]

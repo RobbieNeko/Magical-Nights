@@ -170,6 +170,24 @@
     "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
+    "id": "mteapot",
+    "type": "GENERIC",
+    "copy-from": "teapot",
+    "category": "tools",
+    "name": { "str": "endless teapot" },
+    "description": "A small metal teapot.  Teatime wouldn't be complete without one.",
+    "price_postapoc": "2500 USD",
+    "use_action": {
+      "target": "tea_green",
+      "msg": "You check the teapot and discover it full of sweet tea!  Sadly, it's cold.",
+      "container": "mteapot",
+      "target_charges": 2,
+      "moves": 50,
+      "type": "transform",
+      "need_empty": true
+    }
+  },
+  {
     "id": "mspider_box",
     "type": "TOOL",
     "name": { "str": "spider box", "str_pl": "spider boxes" },
@@ -185,5 +203,23 @@
     "initial_charges": 500,
     "max_charges": 1000,
     "artifact_data": { "charge_type": "ARTC_TIME" }
+  },
+  {
+    "id": "borealmosin_clip",
+    "looks_like": "762R_clip",
+    "type": "MAGAZINE",
+    "name": { "str": "91/30 Boreal clip" },
+    "description": "A tiny piece of grooved metal designed to allow a shooter to quickly load a bolt-action rifle.",
+    "weight": "40 g",
+    "volume": "50ml",
+    "price": "10 USD",
+    "price_postapoc": "50 cent",
+    "material": [ "steel" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "308" ],
+    "capacity": 5,
+    "flags": [ "SPEEDLOADER" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "308": 5 } } ]
   }
 ]

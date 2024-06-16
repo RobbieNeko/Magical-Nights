@@ -134,5 +134,16 @@
     "material": [ "orichalcum_metal" ],
     "proportional": { "bashing": 1.4, "price": 15, "weight": 1.05 },
     "color": "yellow"
+  },
+  {
+    "copy-from": "longsword",
+    "type": "TOOL",
+    "id": "spellsword",
+    "name": { "str": "Spellsword" },
+    "description": "A special weapon made for those gifted at both magic and swordmanship" ],
+	"material": [ "mithril_metal" ],
+	"flags": [ "MAGIC_FOCUS" ],
+    "proportional": { "cutting": 1.2, "price": 7, "weight": 0.7 },
+    "color": "light_blue"
   }
 ]
