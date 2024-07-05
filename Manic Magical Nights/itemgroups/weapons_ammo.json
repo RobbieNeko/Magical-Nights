@@ -1,0 +1,20 @@
+[
+  {
+    "id": "nested_neal_smg",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "neal_smg", "ammo-group": "on_hand_22" },
+      { "item": "a180mag", "ammo-group": "on_hand_22" },
+      { "item": "a180mag", "ammo-group": "on_hand_22", "prob": 50 },
+      { "group": "on_hand_22" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_smg_rare",
+    "items": [ { "group": "nested_neal_smg", "prob": 25 } ]
+  }
+]

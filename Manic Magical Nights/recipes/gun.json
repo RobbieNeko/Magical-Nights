@@ -1,0 +1,15 @@
+[
+  {
+    "type": "recipe",
+    "reversible": false,
+    "result": "neal_smg_techno",
+    "category": "CC_ENCHANTED",
+    "subcategory": "CSC_ENCHANTED_WEAPONS",
+    "skill_used": "spellcraft",
+    "difficulty": 8,
+    "skills_required": [ [ "fabrication", 4 ], [ "mechanics", 5 ] ],
+    "time": "360 m",
+    "autolearn": true,
+    "components": [ [ [ "rune_technomancer", 1 ] ], [ [ "neal_smg", 1 ] ] ]
+  }
+]

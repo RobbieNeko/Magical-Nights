@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "ManicMagicalNights",
+    "name": "Manic Magical Nights",
+    "authors": [ "Robbietheneko" ],
+    "maintainers": [ "Robbietheneko" ],
+    "description": "Did you feel that Magical Nights needs more insanely memey content?  Look no further, as this is the patchmod I'm sticking it in!",
+    "category": "content",
+    "dependencies": [ "bn", "MagicalNights" ]
+  }
+]

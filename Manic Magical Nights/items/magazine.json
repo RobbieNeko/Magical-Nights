@@ -1,0 +1,21 @@
+[
+  {
+    "id": "neal_super_mag",
+    "looks_like": "a180mag",
+    "type": "MAGAZINE",
+    "name": { "str": "1000 round neal super mag" },
+    "description": "An incredible marvel of technomancy, fitting 1000 rounds of .22 lr into such a small package for use in a technomany-empowered .22 lr machine gun.",
+    "weight": "800 g",
+    "volume": "500 ml",
+    "price": "420 USD",
+    "price_postapoc": "420 cent",
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "22",
+    "capacity": 1000,
+    "reliability": 7,
+    "reload_time": 150,
+    "flags": [ "MAG_BULKY" ]
+  }
+]

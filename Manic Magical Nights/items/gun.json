@@ -1,0 +1,60 @@
+[
+  {
+    "type": "GUN",
+    "id": "neal_smg",
+    "copy-from": "smg_base",
+    "looks_like": "sten",
+    "name": { "str_sp": "Hand-held .22 Minigun" },
+    "color": "light_gray",
+    "description": "The epitome of overkill, this .22 lr machine gun boasts an incredible 3000 RPM, or 50 rounds per second.  Somehow, it appears to take a wide variety of magazines for .22 lr weapons.",
+    "weight": "2750 g",
+    "volume": "1500 ml",
+    "price": "420000 USD",
+    "price_postapoc": "69 USD",
+    "material": "steel",
+    "symbol": "H",
+    "durability": 6,
+    "to_hit": -2,
+    "weapon_category": [ "SUBMACHINE_GUNS", "AUTOLOADING" ],
+    "ammo": "22",
+    "ranged_damage": { "damage_type": "bullet", "amount": 0 },
+    "dispersion": 420,
+    "min_cycle_recoil": 69,
+    "modes": [ [ "DEFAULT", "auto", 50 ] ],
+    "barrel_length": "250 ml",
+    "magazines": [ [ "22", [ "a180mag", "ruger1022bigmag", "ruger1022mag", "mosquitomag", "sw22mag", "wp22mag" ] ] ],
+    "reload_noise_volume": 10,
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
+    "handling": 30,
+    "bashing": 11,
+    "ascii_picture": "hk_mp5a2",
+    "skill": "smg",
+    "valid_mod_locations": [
+      [ "accessories", 3 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "underbarrel", 1 ]
+    ]
+  },
+  {
+    "type": "GUN",
+    "id": "neal_smg_techno",
+    "copy-from": "neal_smg",
+    "name": { "str_sp": "Technomancer's Hand-held .22 Minigun" },
+    "description": "The epitome of overkill, this .22 lr machine gun boasts an incredible 3000 RPM, or 50 rounds per second.  Somehow, it appears to take a wide variety of magazines for .22 lr weapons.  Now, thanks to technomancy, it's even more absurd.",
+    "modes": [
+      [ "DEFAULT", "auto", 50 ],
+      [ "AUTO+", "auto++", 100 ],
+      [ "AUTO++", "auto pro", 250 ],
+      [ "AUTO+++", "auto pro max", 500 ]
+    ],
+    "magazines": [ [ "22", [ "a180mag", "ruger1022bigmag", "ruger1022mag", "mosquitomag", "sw22mag", "wp22mag", "neal_super_mag" ] ] ]
+  }
+]
