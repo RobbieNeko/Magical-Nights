@@ -265,6 +265,7 @@
     "material": [ "mithril_metal" ],
     "symbol": "X",
     "color": "light_blue",
+    "looks_like": "mon_irongolem",
     "aggression": 1,
     "morale": 100,
     "melee_skill": 8,
