@@ -445,17 +445,5 @@
     "using": [ [ "blacksmithing_advanced", 4 ] ],
     "book_learn": [ [ "manual_knives", 4 ], [ "recipe_melee", 5 ] ],
     "components": [ [ [ "orichalcum_ingot", 1 ] ], [ [ "fabric_hides_any", 2, "LIST" ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "spellsword",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_CUTTING",
-    "skill_used": "fabrication",
-    "difficulty": 8,
-    "time": "7 h",
-    "book_learn": [ [ "metal_legends", 8 ] ],
-    "using": [ [ "blacksmithing_advanced", 16 ] ],
-    "components": [ [ [ "mithril_ingot", 2 ] ],[ [ "mana_infused_blood", 10 ] ], [ [ "2x4", 1 ], [ "stick", 2 ] ], [ [ "fabric_hides_any", 1, "LIST" ] ] ]
   }
 ]
