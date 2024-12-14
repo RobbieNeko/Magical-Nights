@@ -920,7 +920,7 @@
     "id": "spell_scroll_rock_tomb",
     "//": "Earthshaper spell",
     "name": { "str": "Scroll of Rock Tomb", "str_pl": "Scrolls of Rock Tomb" },
-    "description": "This scroll details how to tear up the ground beneath you to throw medium boulder.",
+    "description": "This scroll details how to tear up the ground beneath you to throw a medium boulder.",
     "use_action": { "type": "learn_spell", "spells": [ "rock_tomb" ] }
   }
 ]
