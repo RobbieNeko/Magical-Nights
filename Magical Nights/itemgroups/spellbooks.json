@@ -106,7 +106,8 @@
       [ "spell_scroll_druidic_regrowth", 20 ],
       [ "spell_scroll_stormshaper_ionization", 40 ],
       [ "spell_scroll_create_acid", 35 ],
-      [ "spell_scroll_condense_clean_water", 35 ]
+      [ "spell_scroll_condense_clean_water", 35 ],
+      [ "spell_scroll_rock_tomb", 50 ]
     ]
   },
   {
