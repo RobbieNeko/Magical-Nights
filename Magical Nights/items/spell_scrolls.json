@@ -922,5 +922,14 @@
     "name": { "str": "Scroll of Rock Tomb", "str_pl": "Scrolls of Rock Tomb" },
     "description": "This scroll details how to tear up the ground beneath you to throw a medium boulder.",
     "use_action": { "type": "learn_spell", "spells": [ "rock_tomb" ] }
+  },
+  {
+    "type": "GENERIC",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_meteor",
+    "//": "Earthshaper spell",
+    "name": { "str": "Scroll of Meteor", "str_pl": "Scrolls of Meteor" },
+    "description": "This scroll contains legendary Meteor spell only mentioned in myths and history books. If not for Cataclysm you would never got that one in your possession.",
+    "use_action": { "type": "learn_spell", "spells": [ "meteor" ] }
   }
 ]
