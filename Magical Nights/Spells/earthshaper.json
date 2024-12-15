@@ -367,7 +367,7 @@
     "id": "meteor",
     "type": "SPELL",
     "name": { "str": "Meteor" },
-    "description": "You summon the small meteorite to fall down on your foes.",
+    "description": "You summon a small meteorite to fall down on your foes.",
     "effect": "projectile_attack",
     "valid_targets": [ "hostile", "ground", "ally" ],
     "damage_type": "bash",
