@@ -314,7 +314,7 @@
     "effect": "projectile_attack",
     "effect_str": "bio_acidburn"
   },
-   {
+  {
     "id": "acid_bomb",
     "type": "SPELL",
     "name": { "str": "Acid Bomb" },
