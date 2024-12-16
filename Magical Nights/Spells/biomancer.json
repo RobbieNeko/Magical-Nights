@@ -290,5 +290,28 @@
     "base_energy_cost": 300,
     "min_damage": 1,
     "max_damage": 1
+  },
+  {
+    "id": "acid_bolt",
+    "type": "SPELL",
+    "name": { "str": "Acid Bolt" },
+    "description": "An acid bolt that only damages your foes.",
+    "valid_targets": [ "hostile" ],
+    "flags": [ "SOMATIC", "NO_LEGS" ],
+    "min_damage": 45,
+    "damage_increment": 1,
+    "damage_type": "acid",
+    "max_damage": 65,
+    "min_range": 10,
+    "range_increment": 0.5,
+    "max_range": 20,
+    "base_energy_cost": 150,
+    "spell_class": "BIOMANCER",
+    "difficulty": 5,
+    "max_level": 20,
+    "base_casting_time": 200,
+    "energy_source": "MANA",
+    "effect": "projectile_attack",
+    "effect_str": "bio_acidburn"
   }
 ]
