@@ -947,7 +947,7 @@
     "id": "spell_scroll_acid_bomb",
     "//": "Biomancer spell",
     "name": { "str": "Scroll of Acid Bomb", "str_pl": "Scrolls of Acid Bomb" },
-    "description": "This scroll contain details how to shape acid into compressed spherical shape.",
+    "description": "This scroll contains details on how to shape acid into a compressed spherical shape.",
     "use_action": { "type": "learn_spell", "spells": [ "acid_bomb" ] }
   },
   {
@@ -956,7 +956,7 @@
     "id": "spell_scroll_acid_storm",
     "//": "Biomancer spell",
     "name": { "str": "Scroll of Acid Storm", "str_pl": "Scrolls of Acid Storm" },
-    "description": "This scroll details how a spell called 'Acid Bomb' which is commonly used among Biomancers can be altered to become much more powerful, at a much higher mana cost.",
+    "description": "This scroll details how a spell called 'Acid Bomb' can be altered to become much more powerful, at a much higher mana cost.",
     "use_action": { "type": "learn_spell", "spells": [ "acid_storm" ] }
   }
 ]
