@@ -15,5 +15,3 @@ I'm glad you asked! Under KorG's vision, the public has basically always known a
 My approach is instead that magic has long been hidden, ever since the immense persecution that it once suffered. You wouldn't find evidence of pre-cataclysm magic in cities aside from the odd basement or appearance in a book store. Instead, magic is more out in the countryside. Mage towers, Magic Academies, and all sorts of magic are located out in the countryside instead.
 
 Due to the influx of magic following the tearing of the veil between worlds, some magic has made its way into cities and towns. However, it will most likely primarily be magical anomalies and threats. Some intriguing uses and aspects of these urban influxes of the arcane may be discoverable by the player, given some effort.
-
-Big magic energy
